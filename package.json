@@ -1,0 +1,23 @@
+{
+  "name": "ts-builder",
+  "version": "1.0.0",
+  "description": "builder factory for typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "npm run test -- --watchAll",
+    "lint": "tslint -s node_modules/custom-tslint-formatters/formatters -t grouped -c tslint.json -p tsconfig.json"
+},
+    "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^24.0.11",
+    "custom-tslint-formatters": "^2.4.0",
+    "jest": "^24.5.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-clean-code": "^0.2.9",
+    "typescript": "^3.3.3333"
+  }
+}
